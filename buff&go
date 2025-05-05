@@ -1,0 +1,46 @@
+{/* About Section */}
+  <section className="space-y-3">
+    <h2 className="text-2xl font-semibold">About Us</h2>
+    <p>
+      Buff & Go Auto Care brings professional car cleaning and detailing services straight to your doorstep. Based in Malappuram, Kerala, we specialize in both interior and exterior vehicle care to keep your car looking its best — conveniently and affordably.
+    </p>
+  </section>
+
+  {/* Services Section */}
+  <section className="space-y-3">
+    <h2 className="text-2xl font-semibold">Our Services</h2>
+    <ul className="list-disc list-inside space-y-2">
+      <li>Interior Washing & Detailing</li>
+      <li>Exterior Washing & Detailing</li>
+      <li>Complete Car Care Packages</li>
+    </ul>
+  </section>
+
+  {/* Gallery Section */}
+  <section className="space-y-3">
+    <h2 className="text-2xl font-semibold">Gallery</h2>
+    <p>Photos coming soon! Follow us on Instagram for the latest updates.</p>
+  </section>
+
+  {/* Contact Section */}
+  <section className="space-y-3">
+    <h2 className="text-2xl font-semibold">Contact Us</h2>
+    <p>Phone: 9567498520 / +91 9526162310</p>
+    <p>Email: buffandgoautocare@gmail.com</p>
+    <p>Instagram: <a href="https://instagram.com" className="text-blue-500 underline">Buff&Go Auto care</a></p>
+    <p>Facebook: <a href="https://facebook.com" className="text-blue-500 underline">BuffandGo_Auto_Care</a></p>
+  </section>
+
+  {/* Booking Section */}
+  <section className="space-y-3">
+    <h2 className="text-2xl font-semibold">Book a Service</h2>
+    <form className="space-y-4">
+      <input type="text" placeholder="Name" className="w-full p-2 border rounded" required />
+      <input type="tel" placeholder="Phone Number" className="w-full p-2 border rounded" required />
+      <input type="text" placeholder="Location" className="w-full p-2 border rounded" required />
+      <textarea placeholder="Service Required" className="w-full p-2 border rounded" required></textarea>
+      <Button type="submit">Submit Booking Request</Button>
+    </form>
+  </section>
+</div>
+); }
